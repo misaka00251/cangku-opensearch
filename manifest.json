@@ -2,7 +2,7 @@
     "description": "Search your cangku resources in firefox.",
     "manifest_version": 2,
     "name": "OpenSearch addon for 绅士仓库",
-    "version": "2.0",
+    "version": "3.0",
     "homepage_url": "https://git.251.sh/misaka00251/cangku-opensearch",
     "icons": {
         "48": "icons/border-48.png"
@@ -10,9 +10,9 @@
     "chrome_settings_overrides": {
         "search_provider": {
             "name": "绅士仓库",
-            "search_url": "https://cangku.one/search/post?q={searchTerms}",
+            "search_url": "https://cangku.io/search/post?q={searchTerms}",
             "keyword": "c",
-            "favicon_url": "https://cangku.one/favicon.ico"
+            "favicon_url": "https://cangku.io/favicon.ico"
         }
     },
     "applications": {
