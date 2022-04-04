@@ -1,6 +1,6 @@
 #!/bin/bash
 # Note: Version needs to be changed here to set it in pacakage.json, and in install.rdf for a release build. The .ignore file contains which files will not be added to xpi.
-VERSION="3.0"
+VERSION="4.0"
 if [ ! -d "$DIRECTORY" ]; then
 	mkdir dist
 fi
